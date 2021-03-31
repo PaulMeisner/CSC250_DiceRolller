@@ -142,6 +142,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".67"
+                    android:onClick="cancelButtonPressed"
                     android:text="Cancel" />
             </LinearLayout>
 
@@ -179,6 +180,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:onClick="onRollButtonPressed"
                     android:text="Roll" />
 
                 <Button
@@ -207,7 +209,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
+                    android:tag="D4"
                     app:srcCompat="@drawable/d4" />
 
                 <ImageButton
@@ -215,7 +219,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
+                    android:tag="D6"
                     app:srcCompat="@drawable/d6" />
 
             </LinearLayout>
@@ -230,7 +236,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
+                    android:tag="D8"
                     app:srcCompat="@drawable/d8" />
 
                 <ImageButton
@@ -238,7 +246,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
+                    android:tag="D10"
                     app:srcCompat="@drawable/d10" />
             </LinearLayout>
 
@@ -252,7 +262,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
+                    android:tag="D12"
                     app:srcCompat="@drawable/d12" />
 
                 <ImageButton
@@ -260,7 +272,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="72dp"
                     android:layout_weight="1"
+                    android:onClick="diceButtonPressed"
                     android:scaleType="fitCenter"
+                    android:tag="D20"
                     app:srcCompat="@drawable/d20" />
             </LinearLayout>
 
